@@ -1,0 +1,45 @@
+Ques 1.) Explain hadoop in layman's term
+Ans)
+ Big Data the capability to manage a huge volume of disparate data, at the right speed,
+and within the right time frame to allow real-time analysis and reaction. 
+extremely large data sets that may be analysed computationally to reveal patterns, trends, and associations,
+especially relating to human behaviour and interactions.
+Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data
+sets or big data in a distributed computing environment ie data is stored on different hardware rather than one hardware. 
+
+Ques 2. )Explain the components of Hadoop framework
+Ans 2)1. MapReduce – A software programming model for processing large sets of data in parallel.
+         Executes a wide range of analytic functions by analysing datasets in parallel before ‘reducing’ the results.
+         The “Map” job distributes a query to different nodes, and the “Reduce” gathers the results and resolves them
+         into a single value.
+ 2. HDFS – The Java-based distributed file system that can store all kinds of data without prior organization.
+      HDFS has a master/slave architecture. An HDFS cluster consists of a single NameNode, a master server that manages
+      the file system namespace and regulates access to files by clients. In addition, there are a number of DataNodes, usually
+      one per node in the cluster, which manage storage attached to the nodes that they run on. HDFS exposes a file system namespace 
+      and allows user data to be stored in files. Internally, a file is split into one or more blocks and these blocks are stored in
+      a set of DataNodes. The NameNode executes file system namespace operations like opening, closing, and renaming files and directories.
+      It also determines the mapping of blocks to DataNodes. The DataNodes are responsible for serving read and write requests from the file
+      system’s clients.The DataNodes also perform block creation, deletion, and replication upon instruction from the NameNode.
+  3. YARN –YARN is one of the key features in the second-generation Hadoop 2 version of the Apache Software Foundation's open source 
+     distributed processing framework. Originally described by Apache as a redesigned resource manager,
+     YARN is now characterized as a large-scale, distributed operating system for big data applications.
+     YARN’s original purpose was to split up the two major responsibilities of the JobTracker/TaskTracker into separate entities:
+      a global ResourceManager
+      a per-application ApplicationMaster
+      a per-node slave NodeManager
+      a per-application Container running on a NodeManager
+
+     
+Ques 3.) Eplain the reasons to learn Big data technologies
+Ans 3.)Big data analytics helps organizations harness their data and use it to identify new opportunities.
+That, in turn, leads to smarter business moves, more efficient operations, higher profits and happier customers.
+
+Cost reduction: Big data technologies such as Hadoop and cloud-based analytics bring significant cost advantages when
+it comes to storing large amounts of data – plus they can identify more efficient ways of doing business.
+
+Faster, better decision making: With the speed of Hadoop and in-memory analytics, combined with the ability to analyze 
+new sources of data, businesses are able to analyze information immediately – and make decisions based on what they’ve learned.
+
+New products and services: With the ability to gauge customer needs and satisfaction through analytics comes the power to give 
+customers what they want. Davenport points out that with big data analytics, more companies are creating new products to meet 
+customers’ needs.
